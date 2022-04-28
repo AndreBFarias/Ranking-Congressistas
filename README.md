@@ -1,3 +1,5 @@
+<div align="center">
+
 [![Licença](https://img.shields.io/badge/licença-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![R](https://img.shields.io/badge/R-4.0+-green.svg)](https://www.r-project.org/)
 [![Estrelas](https://img.shields.io/github/stars/AndreBFarias/RankingCongressistas.svg?style=social)](https://github.com/AndreBFarias/RankingCongressistas/stargazers)
@@ -7,7 +9,7 @@
   <h1 style="font-size: 2em;">Ranking Congressistas</h1>
   <img src="assets/logo.png" width="200" alt="Ícone do Congresso" font-aligh="center">
 </div>
-
+</div>
 Uma ferramenta open source para coletar discursos e projetos do Congresso Brasileiro, processar com regex para temas específicos e gerar rankings de deputados/senadores. Identifica quem é pró/contra um tema, com score de conversão para lobistas focarem nos mais influenciáveis. Dados da API Dados Abertos (Câmara e Senado).
 
 ---
