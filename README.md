@@ -48,4 +48,4 @@ install.packages(c("tidyverse", "rvest", "RCurl", "glue", "lubridate", "jsonlite
 Bibliotecas open source para extração e análise.
 
 ### Licença
-MIT - Livre para modificar e usar em rituais lobistas.
+GLP - Livre para modificar e usar em rituais lobistas desde que tudo permaneça livre.
