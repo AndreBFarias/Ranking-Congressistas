@@ -8,8 +8,9 @@
 
 <div style="text-align: center;">
   <h1 style="font-size: 2em;">Ranking Congressistas</h1>
-  <img src="assets/logo.png" width="200" alt="Ícone do Congresso" font-aligh="center">
-</div>
+<p align="center">
+    <img src="assets/logo.png" width="200" alt="Ícone do Congresso"/>
+</p></div>
 </div>
 Uma ferramenta open source para coletar discursos e projetos do Congresso Brasileiro, processar com regex para temas específicos e gerar rankings de deputados/senadores. Identifica quem é pró/contra um tema, com score de conversão para lobistas focarem nos mais influenciáveis. Dados da API Dados Abertos (Câmara e Senado).
 
