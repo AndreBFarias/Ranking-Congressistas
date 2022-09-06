@@ -1,5 +1,5 @@
 <div align="center">
-  
+
 [![opensource](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](#)
 [![Licença](https://img.shields.io/badge/licença-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![R](https://img.shields.io/badge/R-4.0+-green.svg)](https://www.r-project.org/)
@@ -17,16 +17,16 @@ Uma ferramenta open source para coletar discursos e projetos do Congresso Brasil
 
 ### Pré-requisitos
 - R 4.0 ou superior.
-  
- #### Pacotes: 
+
+ #### Pacotes:
   - tidyverse
   - rvest
-  -  RCurl 
+  -  RCurl
   -  glue
-  - lubridate 
+  - lubridate
   - jsonlite
-  - httr 
-  - textreadr 
+  - httr
+  - textreadr
   - doMC
   - readxl
   - stringr
@@ -39,10 +39,10 @@ install.packages(c("tidyverse", "rvest", "RCurl", "glue", "lubridate", "jsonlite
 ```
 ### Uso
 
-- Execute Coleta_Camara_Discursos.R para discursos da Câmara.
-- Execute Coleta_Senado_Discursos.R para discursos do Senado.
-(Aplique regex personalizada para temas pró/contra.)
-- Execute Ranking_Deputados.R e Ranking_Senadores.R para scores.
+- Execute `Coleta_camara.R` para discursos da Câmara.
+- Execute `Coleta_senado.R` para discursos do Senado.
+  (Aplique regex personalizada para temas pró/contra.)
+- Execute `Ranking_Politicos_Deputados.R` e `Ranking_Congresso_Senadores.R` para os scores.
 
 
 ### Dependências
