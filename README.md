@@ -7,7 +7,10 @@
 # Ranking Congressistas
 
 ![Ícone do Congresso](https://raw.githubusercontent.com/AndreBFarias/Ranking-Congressistas/main/assets/logo.png)
-Uma ferramenta open source para coletar discursos e projetos do Congresso Brasileiro, processar com regex para temas específicos e gerar rankings de deputados/senadores. Identifica quem é pró/contra um tema, com score de conversão para lobistas focarem nos mais influenciáveis. Dados da API Dados Abertos (Câmara e Senado).
+
+## Descrição
+
+Ferramenta para coletar discursos e projetos do Congresso Brasileiro via API Dados Abertos, processar com regex para temas específicos e gerar rankings de deputados e senadores. Identifica posicionamento pró/contra um tema com score ponderado. Dados da API Dados Abertos (Câmara e Senado).
 
 ---
 
