@@ -1,0 +1,21 @@
+# Dados de saída
+*.csv
+*.xlsx
+*.json
+data/
+
+# R específico
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Sistema
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs
+*.log
+logs/
