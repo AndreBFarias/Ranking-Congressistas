@@ -1,27 +1,45 @@
-## Coleta dos dados:
-Todos os dados que utilizei foram extraídos com as API do portal Dados Abertos:
 
--Câmara: https://dadosabertos.camara.leg.br/swagger/api.html
+<div style="text-align: center;">
+  <h1 style="font-size: 2em;">Ranking Congressistas</h1>
+  <img src="assets/logo.png" width="200" alt="Ícone do Congresso">
+</div>
 
--Senado: https://www12.senado.leg.br/dados-abertos
+Uma ferramenta open source para coletar discursos e projetos do Congresso Brasileiro, processar com regex para temas específicos e gerar rankings de deputados/senadores. Identifica quem é pró/contra um tema, com score de conversão para lobistas focarem nos mais influenciáveis. Dados da API Dados Abertos (Câmara e Senado).
 
-Pacotes usados:
-<ul>
-<li>tidyverse</li>
-<li>rvest</li>
-<li>RCurl</li>
-<li>glue</li>
-<li>lubridate</li>
-</ul>
+---
+
+### Pré-requisitos
+- R 4.0 ou superior.
+  
+ #### Pacotes: 
+  - tidyverse
+  - rvest
+  -  RCurl 
+  -  glue
+  - lubridate 
+  - jsonlite
+  - httr 
+  - textreadr 
+  - doMC
+  - readxl
+  - stringr
+
+### Instalação
+
+```bash
+# Instale pacotes no R:
+install.packages(c("tidyverse", "rvest", "RCurl", "glue", "lubridate", "jsonlite", "httr", "textreadr", "doMC", "readxl", "stringr"))
+```
+### Uso
+
+- Execute Coleta_Camara_Discursos.R para discursos da Câmara.
+- Execute Coleta_Senado_Discursos.R para discursos do Senado.
+(Aplique regex personalizada para temas pró/contra.)
+- Execute Ranking_Deputados.R e Ranking_Senadores.R para scores.
 
 
-## Ranking_congressistas
-Projeto sobre como construir um score de determinados congressistas (deputados e senadores), onde trato, normalizo e construo um score de acordo com a quantidade de vezes que determinado político falou sobre um tema. 
+### Dependências
+Bibliotecas open source para extração e análise.
 
-Pacotes usados:
-<ul>
-<li>readr</li>
-<li>readxl</li>
-<li>stringr</li>
-<li>tidyverse</li>
- </ul>
+### Licença
+MIT - Livre para modificar e usar em rituais lobistas.
